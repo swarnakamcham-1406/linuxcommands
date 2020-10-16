@@ -1,0 +1,1 @@
+awk -F":" '$7 == "/bin/false" {print "User: "$1 "Home Dir: "$6}' /etc/passwd
